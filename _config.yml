@@ -1,0 +1,31 @@
+# Permalinks
+permalink:      /:year-:month-:day/:title
+
+# Setup
+title:          날마다 적지않는 날적이
+paginate:       5
+baseurl:        ""
+url:            "https://hojonglee.github.io"
+
+# Assets
+sass:
+  sass_dir:     _sass
+  style:        :compressed
+
+# Build settings
+markdown:       kramdown
+
+# About
+author:
+  name:         이호종
+  url:          http://hojonglee.github.io/
+  email:        hojonglee82@gmail.com
+
+# Custom vars
+version:        3.4.1
+github:
+  repo:         https://github.com/hojonglee/hojonglee.github.io
+
+# Gems
+plugins:
+  - jekyll-paginate

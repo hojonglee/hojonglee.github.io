@@ -1,0 +1,22 @@
+---
+layout: default
+title: Review
+---
+
+<div class="catalogue">
+  {% for post in site.categories.review %}
+    <a href="{{ post.url | prepend: site.url }}" class="catalogue-item">
+      <div>
+        <time datetime="{{ post.date }}" class="catalogue-time">{{ post.date | date: "%Y-%m-%d" }}</time>
+        <h1 class="catalogue-title">{{ post.title }}</h1>
+        <div class="catalogue-line"></div>
+
+        <p>
+          {{ post.content | truncatewords: 30 | strip_html }}
+        </p>
+
+      </div>
+    </a>
+  {% endfor %}
+</div>
+
