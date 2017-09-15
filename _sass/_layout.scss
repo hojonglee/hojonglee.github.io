@@ -23,11 +23,6 @@ footer,
     text-align: center;
   }
 
-  &-search {
-	width: 300px;
-	position: relative;
-  }
-
   &-title {
     @include transition(all .2s ease-out);
     color: $default-color;
@@ -73,8 +68,6 @@ footer,
 
 @media (min-width: 600px) {
   .nav {
-    &-search {
-      width: 400px;
     }
   }
 }
