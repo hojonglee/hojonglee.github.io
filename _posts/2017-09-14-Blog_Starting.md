@@ -14,3 +14,5 @@ categories: [diary]
 우선은 블로그에 올리려고 생각해서 작성해두었던 스프링 부트 레퍼런스 페이지의 번역을 앞에 올려두었다.
 
 화이팅~
+
+![이미지](https://drive.google.com/uc?id=1ZXPzFO0m59V_swLWidyDqzxwuAJyYcZAJA)

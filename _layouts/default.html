@@ -4,6 +4,17 @@
   {% include head.html %}
 
   <body>
+<script>
+  (function() {
+    var cx = '010025182030453809432:_ul6hvu9moy';
+    var gcse = document.createElement('script');
+    gcse.type = 'text/javascript';
+    gcse.async = true;
+    gcse.src = 'https://cse.google.com/cse.js?cx=' + cx;
+    var s = document.getElementsByTagName('script')[0];
+    s.parentNode.insertBefore(gcse, s);
+  })();
+</script>
     <nav class="nav">
       <div class="nav-container">
         <a href="{{ site.baseurl }}/">
@@ -17,6 +28,7 @@
           <li><a href="{{ '/about' | prepend: site.url }}">About</a></li>
         </ul>
     </div>
+	<div class="nav-search"><gcse:searchbox-only></gcse:searchbox-only></div>
   </nav>
 
     <main>
