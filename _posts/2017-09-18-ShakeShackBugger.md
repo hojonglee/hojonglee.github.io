@@ -3,6 +3,7 @@ layout: post
 title: "한가한 날의 쉑쉑버거 방문"
 author: "이호종"
 categories: [review]
+comments : true
 
 ---
 
