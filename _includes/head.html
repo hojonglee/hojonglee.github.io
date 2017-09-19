@@ -6,9 +6,10 @@
     {% if page.title == "Home" %}
       {{ site.title }}
     {% else %}
-      {{ page.title }} &middot; {{ site.title }}
+      {{ page.title }}
     {% endif %}
   </title>
+  <meta name="description" content="{{site.title}} - {{page.title}}">
 
   <!-- CSS -->
   <link rel="stylesheet" href="{{ site.baseurl }}/styles.css">
