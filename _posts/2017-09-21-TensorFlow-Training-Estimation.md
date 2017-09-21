@@ -95,6 +95,8 @@ tf.estimator는 많은 공통 모델을 정의한다.
 ### Basic usage
 
 `tf.estimator`를 사용하면 회귀분석 프로그램이 얼마나 단순해질까:
+> 이 부분부터는 tensorflow-r1.3 버전에서 가능하다. 이전버전은 tf.estimator가 다른 패키지로 묶여있다.
+>  https://www.tensorflow.org/versions/r1.2/get_started/get_started 에서 r1.2부분을 원하는 버전으로 치환해서 확인해볼 수 있다.
 
 ```python
 import tensorflow as tf
