@@ -29,10 +29,11 @@ pre code {
   line-height: 1.4;
   margin: 0 0 1rem;
   padding: 1rem;
+  overflow-x: scroll;
 
   pre {
     margin-bottom: 0;
-    overflow-x: auto;
+    //overflow-x: auto;
   }
 
   .lineno {
