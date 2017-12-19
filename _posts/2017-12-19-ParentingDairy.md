@@ -2,7 +2,7 @@
 layout: post
 title: 육아일기-20171219
 author: 이호종
-categories: [dairy]
+categories: [diary]
 comments: true
 
 ---
